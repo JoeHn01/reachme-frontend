@@ -1,0 +1,54 @@
+.heroContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 40px 0px 40px 0px;
+  gap: 40px;
+}
+
+.headlineContainer {
+  width: 90vw;
+  height: 172px;
+  padding: 0px 32px 0px 32px;
+  gap: 32px;
+}
+
+.headlineContent {
+  text-align: center;
+  width: 90%;
+  height: Hug (172px)px;
+  gap: 48px;
+}
+
+.headlineTop {
+  gap: 16px;
+}
+
+.discover {
+  color: #026AA2;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  margin-top: 0;
+}
+
+.headline {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: -0.02em;
+}
+
+.subtitle {
+  color: #667085;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 0;
+}

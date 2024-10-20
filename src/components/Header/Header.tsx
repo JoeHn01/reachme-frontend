@@ -10,7 +10,7 @@ const Header: React.FC = () => {
     <div className={styles.header}>
       <div className={styles.headerContainer}>
         <div className={styles.headerContent}>
-          <Image src="logo.svg" alt="empty-image.jpg" width={110} height={20}></Image>
+          <Image className={styles.logo} src="logo.svg" alt="empty-image.jpg" width={110} height={32}></Image>
           <div className={styles.navList}>
             {navList.map( (item) => {
               return (
@@ -21,7 +21,7 @@ const Header: React.FC = () => {
             } )}
           </div>
         </div>
-        <div className={styles.headerAuth}>
+        <div className={styles.headerCta}>
           <Button variant="regular">Log In</Button>
           <Button variant="secondary">Sign Up</Button>
           <Button variant="primary">For Employers</Button>
