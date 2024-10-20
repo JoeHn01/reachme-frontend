@@ -14,6 +14,11 @@ const Hero: React.FC = () => {
             <p className={styles.subtitle}>Find your perfect job effortlessly with our advanced search and comprehensive listings.</p>
           </div>
         </div>
+        <div className={styles.searchContainer}>
+          <div className={styles.searchInputs}>
+            Job Title, Location, Job Type
+          </div>
+        </div>
       </div>
     </div>
   );

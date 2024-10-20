@@ -22,8 +22,8 @@ const Header: React.FC = () => {
           </div>
         </div>
         <div className={styles.headerCta}>
-          <Button variant="regular">Log In</Button>
-          <Button variant="secondary">Sign Up</Button>
+          <Button variant="regular">Log in</Button>
+          <Button variant="secondary">Sign up</Button>
           <Button variant="primary">For Employers</Button>
         </div>
       </div>

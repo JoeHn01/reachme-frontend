@@ -2,13 +2,13 @@
   display: inline-block;
   padding: 10px 20px;
   font-size: 16px;
-  font-weight: bold;
+  font-weight: 550;
   border: none;
   border-radius: 8px;
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  transition: 0.3s ease-in-out;
+  transition: font-weight 0.3s ease-in-out;
 }
 
 .button:disabled {
