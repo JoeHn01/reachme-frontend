@@ -7,7 +7,7 @@ import Blog from "@/components/Main/Blog/Blog";
 import FAQ from "@/components/Main/FAQ/FAQ";
 import styles from "./page.module.css";
 
-export default function Home() {
+export default function Main() {
   return (
     <div>
       <Hero />
