@@ -55,3 +55,136 @@
   line-height: 28px;
   margin-bottom: 0;
 }
+
+.searchContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 186px;
+  gap: 24px;
+}
+
+.searchFormContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 24px 32px 24px;
+  gap: 32px;
+  border-radius: 12px;
+  border: 1px 0px 0px 0px;
+  background: #F9FAFB;
+}
+
+.searchInputs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.inputContainer, .dropdownContainer {
+  position: relative;
+  width: 262px;
+  height: fit-content;
+}
+
+.dropdownContainer {
+  width: 320px;
+}
+
+.searchInput, .searchDropdown {
+  width: 100%;
+  height: 44px;
+  padding: 10px 14px 10px 35px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.searchDropdown {
+  padding-left: 14px;
+  padding-right: 35px;
+}
+
+.mailIcon, .arrowIcon {
+  font-size: 20px;
+  position: absolute;
+  top: 52%;
+  left: 10px;
+  pointer-events: none;
+  color: #667085;
+  stroke-width: 1px;
+}
+
+.arrowIcon {
+  left: auto;
+  right: 10px;
+}
+
+.inputLabel {
+  margin-bottom: 8px;
+  font-size: 14px;
+  display: block;
+}
+
+.searchButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  width: 44px;
+  height: 44px;
+  font-size: larger;
+  margin: auto 0 0 0;
+}
+
+.searchIcon {
+  stroke-width: 1.67px;
+}
+
+.keywordsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  height: 28px;
+}
+
+.keywordsLabel {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #667085;
+}
+
+.keywordList {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+
+.keywordWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #F2F4F7;
+  padding: 4px 10px 4px 12px;
+  border-radius: 16px;
+  gap: 4px;
+  height: 28px;
+  font-size: 14px;
+}
+
+.keywordIcon {
+  display: flex;
+  stroke-width: 1.5px;
+  color: #667085;
+}
+
+.keyword {
+  font-weight: 500;
+  line-height: 20px;
+  color: #344054;
+}

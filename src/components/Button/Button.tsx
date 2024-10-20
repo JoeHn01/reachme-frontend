@@ -2,7 +2,8 @@ import React from 'react';
 import styles from './Button.module.css';
 
 interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  variant: 'regular' | 'primary' | 'secondary' ;
+  variant: 'regular' | 'primary' | 'secondary';
+  className?: string;
 }
 
 const Button: React.FC<ButtonProps> = ({ variant, className, children, ...props }) => {
