@@ -1,0 +1,16 @@
+.mapWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1,216px;
+  height: auto;
+  gap: 32px;
+  background-color: white;
+  border: none;
+  padding: 20px;
+}
+
+.mapImage {
+  width: 1024px;
+  height: auto;
+}

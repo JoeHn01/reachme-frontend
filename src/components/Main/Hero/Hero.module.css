@@ -1,5 +1,6 @@
 .heroContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -25,7 +26,8 @@
 .headlineContent {
   text-align: center;
   width: 90%;
-  height: Hug (172px)px;
+  width: 743px;
+  height: 172px;
   gap: 48px;
 }
 
@@ -187,4 +189,10 @@
   font-weight: 500;
   line-height: 20px;
   color: #344054;
+}
+
+.bottomContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

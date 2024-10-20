@@ -2,8 +2,8 @@ import React from 'react';
 import Button from '@/components/Button/Button';
 import { CiSearch, CiMail } from "react-icons/ci";
 import { IoIosArrowDown } from "react-icons/io";
+import DotMap from './DotMap/DotMap';
 import styles from './Hero.module.css';
-
 
 const Hero: React.FC = () => {
   const keywordList = ["Software Engineer", "Marketing Manager", "Data Analyst", "Project Manager"];
@@ -69,6 +69,9 @@ const Hero: React.FC = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className={styles.bottomContainer}>
+        <DotMap />
       </div>
     </div>
   );
