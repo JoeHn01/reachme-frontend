@@ -83,7 +83,12 @@ const Hero: React.FC = () => {
                   return (
                     <div className={styles.hiringItemWrapper}>
                       <div className={styles.hiringItem}>
-                        <Image src={`/logos/${item[0].split(" ")[0].toLowerCase().replace('-', '')}.svg`} alt="empty-image.jpg" width={110} height={32}></Image>
+                        <Image 
+                          src={`/logos/${item[0].split(" ")[0].toLowerCase().replace('-', '')}.svg`}
+                          alt="/empty-image.jpg"
+                          width={126}
+                          height={42}
+                         />
                         <div className={styles.itemName}>{item[0]}</div>
                         <div className={styles.itemJobs}>
                           <GoDotFill className={styles.itemJobsDot} />

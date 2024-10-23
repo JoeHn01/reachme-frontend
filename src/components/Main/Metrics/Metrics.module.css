@@ -1,0 +1,105 @@
+.metricsContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 64px 0px 96px 0px;
+  gap: 64px;    
+}
+
+.metricsContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 88%;
+  height: fit-content;
+  gap: 96px;
+}
+
+.topContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: fit-content;
+  gap: 64px;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  gap: 20px;
+}
+
+.topTitleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+
+.topTitle {
+  margin: 0;
+  gap: 20px;
+  font-size: 18px;
+  color: #026AA2;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.mainTitle {
+  color: #101828;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 60px;
+}
+
+.subtitle {
+  margin: 0;
+  text-align: center;
+  width: 740px;
+  height: 60px;
+  color: #667085;
+}
+
+.metricsList {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 48px;
+}
+
+.metricsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 264px;
+  gap: 20px;
+  opacity: 0px;  
+}
+
+.metricsNumber {
+  display: flex;
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 72px;
+  letter-spacing: -0.02em;
+  color: #CF3338;  
+}
+
+.metricsText {
+  color: #101828;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.imageContainer {
+  position: relative;
+  width: 100%;
+  height: 400px;  
+}

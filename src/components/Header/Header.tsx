@@ -10,7 +10,7 @@ const Header: React.FC = () => {
     <div className={styles.header}>
       <div className={styles.headerContainer}>
         <div className={styles.headerContent}>
-          <Image className={styles.logo} src="/logos/reachme.svg" alt="empty-image.jpg" width={110} height={32}></Image>
+          <Image className={styles.logo} src="/logos/reachme.svg" alt="/empty-image.jpg" width={110} height={32} />
           <div className={styles.navList}>
             {navList.map( (item) => {
               return (
