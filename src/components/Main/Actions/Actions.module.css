@@ -1,0 +1,93 @@
+.actionsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: fit-content;
+  padding: 40px 0px 80px 0px;
+  background: #F9FAFB;
+}
+
+.actions {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  width: 88.88%;
+  height: 69%;
+  gap: 32px;
+}
+
+.labelWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 23.15%;
+  height: 100%;
+  padding: 32px 0;
+  gap: 16px;
+}
+
+.actionsLabel {
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  color: #101828;
+}
+
+.actionsSubtitle {
+  display: flex;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  color: #667085;
+}
+
+.actionCard {
+  display: flex;
+  flex-direction: column;
+  width: 23.15%;
+  height: 91.79%;
+  padding: 24px;
+  gap: 64px;
+  border-radius: 8px;
+  background: #FFFFFF;
+}
+
+.iconWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  padding: 12px;
+  border-radius: 10px;
+  background: #667085;
+}
+
+.actionIcon {
+  display: flex;
+  font-weight: 500;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.actionLabel {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+  color: #101828;
+}
+
+.actionSubtitle {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #344054;
+  margin: 0;
+}
