@@ -20,7 +20,7 @@
 .labelWrapper {
   display: flex;
   flex-direction: column;
-  width: 23.15%;
+  width: 23%;
   height: 100%;
   padding: 32px 0;
   gap: 16px;
@@ -44,7 +44,7 @@
 .actionCard {
   display: flex;
   flex-direction: column;
-  width: 23.15%;
+  width: 20%;
   height: 91.79%;
   padding: 24px;
   gap: 64px;
