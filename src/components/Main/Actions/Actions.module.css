@@ -10,7 +10,7 @@
 
 .actions {
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
   align-items: center;
   width: 88.88%;
   height: 69%;
@@ -20,7 +20,7 @@
 .labelWrapper {
   display: flex;
   flex-direction: column;
-  width: 23%;
+  width: 25%;
   height: 100%;
   padding: 32px 0;
   gap: 16px;
@@ -44,7 +44,7 @@
 .actionCard {
   display: flex;
   flex-direction: column;
-  width: 20%;
+  width: 23%;
   height: 91.79%;
   padding: 24px;
   gap: 64px;
