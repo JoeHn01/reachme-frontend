@@ -4,6 +4,7 @@ import { CiSearch, CiMail } from "react-icons/ci";
 import { IoIosArrowDown } from "react-icons/io";
 import { GoDotFill } from "react-icons/go";
 import Button from '@/components/Button/Button';
+import SectionTitle from '@/components/SectionTitle/SectionTitle';
 import DotMap from './DotMap/DotMap';
 import styles from './Hero.module.css';
 
@@ -14,15 +15,12 @@ const Hero: React.FC = () => {
   return (
     <div className={styles.heroContainer}>
       <div className={styles.topContainer}>
-        <div className={styles.headlineContainer}>
-          <div className={styles.headlineContent}>
-            <div className={styles.headlineTop}>
-              <p className={styles.discover}>Discover New Opportunities</p>
-              <div className={styles.headline}>Find Your Dream Job</div>
-            </div>
-            <p className={styles.subtitle}>Find your perfect job effortlessly with our advanced search and comprehensive listings.</p>
-          </div>
-        </div>
+          <SectionTitle
+            highlight="Discover New Opportunities"
+            title="Find Your Dream Job"
+          >
+            Find your perfect job effortlessly with our advanced search and comprehensive listings.
+          </SectionTitle>
         <div className={styles.searchContainer}>
           <div className={styles.searchFormContainer}>
             <div className={styles.searchInputs}>
@@ -81,19 +79,17 @@ const Hero: React.FC = () => {
             <div className={styles.hiringList}>
                 {hiringList.map((item) => {
                   return (
-                    <div className={styles.hiringItemWrapper}>
-                      <div className={styles.hiringItem}>
-                        <Image 
-                          src={`/logos/${item[0].split(" ")[0].toLowerCase().replace('-', '')}.svg`}
-                          alt="/empty-image.jpg"
-                          width={126}
-                          height={42}
-                         />
-                        <div className={styles.itemName}>{item[0]}</div>
-                        <div className={styles.itemJobs}>
-                          <GoDotFill className={styles.itemJobsDot} />
-                          <div className={styles.itemJobsText}>{item[1]} new jobs</div>
-                        </div>
+                    <div className={styles.hiringItem}>
+                      <Image 
+                        src={`/logos/${item[0].split(" ")[0].toLowerCase().replace('-', '')}.svg`}
+                        alt="/empty-image.jpg"
+                        width={126}
+                        height={42}
+                       />
+                      <div className={styles.itemName}>{item[0]}</div>
+                      <div className={styles.itemJobs}>
+                        <GoDotFill className={styles.itemJobsDot} />
+                        <div className={styles.itemJobsText}>{item[1]} new jobs</div>
                       </div>
                     </div>
                   );

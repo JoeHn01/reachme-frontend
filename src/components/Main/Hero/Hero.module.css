@@ -9,53 +9,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  width: 90%;
   padding: 40px 0px 40px 0px;
   gap: 40px;
-}
-
-.headlineContainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 90vw;
-  height: 172px;
-  padding: 0px 32px 0px 32px;
-  gap: 32px;
-}
-
-.headlineContent {
-  text-align: center;
-  width: 90%;
-  width: 743px;
-  height: 172px;
-  gap: 48px;
-}
-
-.headlineTop {
-  gap: 16px;
-}
-
-.discover {
-  color: #026AA2;
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 28px;
-  margin-top: 0;
-}
-
-.headline {
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 60px;
-  letter-spacing: -0.02em;
-}
-
-.subtitle {
-  color: #667085;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 28px;
-  margin-bottom: 0;
 }
 
 .searchContainer {
@@ -198,15 +155,15 @@
   align-items: center;
   width: 100%;
   gap: 40px;
-  padding-bottom: 80px;
+  padding: 40px 0 80px 0;
 }
 
 .hiringContainer {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding-top: 40px;
 }
 
 .hiring {
@@ -214,14 +171,17 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 194px;
+  width: 90%;
+  gap: 40px;
 }
 
 .hiringLabel {
+  width: 95%;
   gap: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 30px;
+  text-align: center;
   color: #667085;
 }
 
@@ -230,8 +190,7 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  width: 1280px;
-  height: 124px;
+  width: 100%;
   gap: 32px;
 }
 
@@ -239,12 +198,12 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 296px;
+  width: 23.1%;
   gap: 12px;
-  opacity: 0px;  
 }
 
 .itemName {
+  display: flex;
   font-size: 16px;
   font-weight: 500;
   line-height: 24px; 
